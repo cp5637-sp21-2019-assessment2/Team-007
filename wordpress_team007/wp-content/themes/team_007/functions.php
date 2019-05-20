@@ -120,7 +120,13 @@ add_action( 'widgets_init', 'cp5637_widgets_init' );
  * Enqueue scripts and styles.
  */
 function cp5637_scripts() {
+    wp_enqueue_style('cp5637_boostrap_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
+
 	wp_enqueue_style( 'cp5637-style', get_stylesheet_uri() );
+
+	wp_enqueue_script('jquery');
+
+	wp_enqueue_script( 'cp5637_bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '20190213', true );
 
 	wp_enqueue_script( 'cp5637-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
