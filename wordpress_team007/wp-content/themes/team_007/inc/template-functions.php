@@ -11,7 +11,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function team_007_body_classes( $classes ) {
+function cp5637_body_classes( $classes ) {
 	// Adds a class of hfeed to non-singular pages.
 	if ( ! is_singular() ) {
 		$classes[] = 'hfeed';
@@ -24,14 +24,14 @@ function team_007_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'team_007_body_classes' );
+add_filter( 'body_class', 'cp5637_body_classes' );
 
 /**
  * Add a pingback url auto-discovery header for single posts, pages, or attachments.
  */
-function team_007_pingback_header() {
+function cp5637_pingback_header() {
 	if ( is_singular() && pings_open() ) {
 		printf( '<link rel="pingback" href="%s">', esc_url( get_bloginfo( 'pingback_url' ) ) );
 	}
 }
-add_action( 'wp_head', 'team_007_pingback_header' );
+add_action( 'wp_head', 'cp5637_pingback_header' );

@@ -22,21 +22,21 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				team_007_posted_on();
-				team_007_posted_by();
+				cp5637_posted_on();
+				cp5637_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php team_007_post_thumbnail(); ?>
+	<?php cp5637_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
 		the_content( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'team_007' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'cp5637' ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -47,13 +47,13 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'team_007' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'cp5637' ),
 			'after'  => '</div>',
 		) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php team_007_entry_footer(); ?>
+		<?php cp5637_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

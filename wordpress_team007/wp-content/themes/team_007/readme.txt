@@ -13,7 +13,7 @@ A starter theme called team_007.
 
 == Description ==
 
-Description
+This is a wordpress theme built by Team 07. A JCUB Project
 
 == Installation ==
 

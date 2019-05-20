@@ -14,27 +14,27 @@
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses team_007_header_style()
+ * @uses cp5637_header_style()
  */
-function team_007_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'team_007_custom_header_args', array(
+function cp5637_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'cp5637_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'team_007_header_style',
+		'wp-head-callback'       => 'cp5637_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'team_007_custom_header_setup' );
+add_action( 'after_setup_theme', 'cp5637_custom_header_setup' );
 
-if ( ! function_exists( 'team_007_header_style' ) ) :
+if ( ! function_exists( 'cp5637_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see team_007_custom_header_setup().
+	 * @see cp5637_custom_header_setup().
 	 */
-	function team_007_header_style() {
+	function cp5637_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
