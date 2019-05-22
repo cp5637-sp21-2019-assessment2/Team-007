@@ -1,0 +1,725 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Progression Elements\n"
+"POT-Creation-Date: 2017-01-04 16:43-0800\n"
+"PO-Revision-Date: 2017-01-04 16:43-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: pro-custom.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: elements/blog-shortcode.php:336 elements/portfolio-shortcode.php:344
+#: elements/shop-shortcode.php:429
+msgid "No more posts"
+msgstr ""
+
+#: elements/blog-shortcode.php:414 elements/portfolio-shortcode.php:424
+#: elements/shop-shortcode.php:480
+msgid "Load More <span><i class=\"fa fa-arrow-circle-down\"></i></span>"
+msgstr ""
+
+#: elements/blog-shortcode.php:441
+msgid "Pro Blog"
+msgstr ""
+
+#: elements/blog-shortcode.php:442
+msgid "Blog post list"
+msgstr ""
+
+#: elements/blog-shortcode.php:446 elements/image-grid-shortcode.php:121
+#: elements/portfolio-shortcode.php:456 elements/shop-shortcode.php:512
+#: elements/team-shortcode.php:182
+msgid "Pro Elements"
+msgstr ""
+
+#: elements/blog-shortcode.php:455
+msgid "Blog Pagination & Carousel Option"
+msgstr ""
+
+#: elements/blog-shortcode.php:458 elements/portfolio-shortcode.php:468
+#: elements/shop-shortcode.php:524
+msgid "No Pagination or Carousel"
+msgstr ""
+
+#: elements/blog-shortcode.php:459 elements/portfolio-shortcode.php:469
+#: elements/shop-shortcode.php:525
+msgid "Display as Carousel"
+msgstr ""
+
+#: elements/blog-shortcode.php:460 elements/portfolio-shortcode.php:470
+#: elements/shop-shortcode.php:526
+msgid "Default Page Numbers"
+msgstr ""
+
+#: elements/blog-shortcode.php:461 elements/portfolio-shortcode.php:471
+#: elements/shop-shortcode.php:527
+msgid "Load More Button"
+msgstr ""
+
+#: elements/blog-shortcode.php:462 elements/portfolio-shortcode.php:472
+#: elements/shop-shortcode.php:528
+msgid "Infinite Scroll"
+msgstr ""
+
+#: elements/blog-shortcode.php:471
+msgid "Blog Columns"
+msgstr ""
+
+#: elements/blog-shortcode.php:488
+msgid "Blog Image Size"
+msgstr ""
+
+#: elements/blog-shortcode.php:502
+msgid "Blog List Padding"
+msgstr ""
+
+#: elements/blog-shortcode.php:533
+msgid "Blog Post Count"
+msgstr ""
+
+#: elements/blog-shortcode.php:542
+msgid "Narrow by Blog Categories"
+msgstr ""
+
+#: elements/blog-shortcode.php:543 elements/portfolio-shortcode.php:556
+#: elements/shop-shortcode.php:603
+msgid ""
+"Enter category slugs to display a specific category. Add-in multiple "
+"category slugs seperated by a comma to use multiple categories. (Leave blank "
+"to pull in all categories)."
+msgstr ""
+
+#: elements/blog-shortcode.php:552
+msgid "Display Blog Sorting?"
+msgstr ""
+
+#: elements/blog-shortcode.php:560 elements/portfolio-shortcode.php:573
+#: elements/shop-shortcode.php:620
+msgid "Category Filter Text for All Posts"
+msgstr ""
+
+#: elements/blog-shortcode.php:575 elements/portfolio-shortcode.php:588
+#: elements/shop-shortcode.php:635
+msgid "Display Carousel Left/Right Navigation?"
+msgstr ""
+
+#: elements/blog-shortcode.php:578 elements/blog-shortcode.php:591
+#: elements/blog-shortcode.php:601 elements/blog-shortcode.php:617
+#: elements/blog-shortcode.php:627 elements/blog-shortcode.php:636
+#: elements/portfolio-shortcode.php:591 elements/portfolio-shortcode.php:604
+#: elements/portfolio-shortcode.php:614 elements/portfolio-shortcode.php:630
+#: elements/portfolio-shortcode.php:640 elements/portfolio-shortcode.php:649
+#: elements/shop-shortcode.php:638 elements/shop-shortcode.php:651
+#: elements/shop-shortcode.php:661 elements/shop-shortcode.php:677
+#: elements/shop-shortcode.php:687 elements/shop-shortcode.php:696
+msgid "Carousel Options"
+msgstr ""
+
+#: elements/blog-shortcode.php:584 elements/portfolio-shortcode.php:597
+#: elements/shop-shortcode.php:644
+msgid "Force Left/Right Navigation Outside?"
+msgstr ""
+
+#: elements/blog-shortcode.php:598 elements/portfolio-shortcode.php:611
+#: elements/shop-shortcode.php:658
+msgid "Display Carousel Bullet Navigation?"
+msgstr ""
+
+#: elements/blog-shortcode.php:607 elements/portfolio-shortcode.php:620
+#: elements/shop-shortcode.php:667
+msgid "Carousel scroll by how many items"
+msgstr ""
+
+#: elements/blog-shortcode.php:624 elements/portfolio-shortcode.php:637
+#: elements/shop-shortcode.php:684
+msgid "Carousel Autoplay?"
+msgstr ""
+
+#: elements/blog-shortcode.php:633
+msgid "blog Carousel Autoplay Duration"
+msgstr ""
+
+#: elements/blog-shortcode.php:647 elements/image-grid-shortcode.php:209
+#: elements/portfolio-shortcode.php:661 elements/shop-shortcode.php:707
+msgid "Disable Masonry Layout (Equal Height Rows)"
+msgstr ""
+
+#: elements/blog-shortcode.php:650 elements/blog-shortcode.php:663
+#: elements/blog-shortcode.php:673 elements/blog-shortcode.php:682
+#: elements/blog-shortcode.php:691 elements/blog-shortcode.php:701
+#: elements/blog-shortcode.php:710 elements/blog-shortcode.php:720
+#: elements/blog-shortcode.php:732 elements/blog-shortcode.php:743
+#: elements/blog-shortcode.php:753 elements/blog-shortcode.php:767
+#: elements/blog-shortcode.php:782 elements/blog-shortcode.php:796
+#: elements/image-grid-shortcode.php:212 elements/image-grid-shortcode.php:223
+#: elements/image-grid-shortcode.php:233 elements/image-grid-shortcode.php:252
+#: elements/image-grid-shortcode.php:263 elements/portfolio-shortcode.php:664
+#: elements/portfolio-shortcode.php:677 elements/portfolio-shortcode.php:686
+#: elements/portfolio-shortcode.php:696 elements/portfolio-shortcode.php:705
+#: elements/portfolio-shortcode.php:714 elements/portfolio-shortcode.php:723
+#: elements/portfolio-shortcode.php:732 elements/portfolio-shortcode.php:742
+#: elements/portfolio-shortcode.php:750 elements/portfolio-shortcode.php:759
+#: elements/shop-shortcode.php:710 elements/shop-shortcode.php:719
+#: elements/shop-shortcode.php:729
+msgid "Design Options"
+msgstr ""
+
+#: elements/blog-shortcode.php:656
+msgid "Blog Layout"
+msgstr ""
+
+#: elements/blog-shortcode.php:670
+msgid "Content Layout Background"
+msgstr ""
+
+#: elements/blog-shortcode.php:679
+msgid "Image/Overlay Hover Opacity (Example 0.2)"
+msgstr ""
+
+#: elements/blog-shortcode.php:688 elements/portfolio-shortcode.php:683
+msgid "Heading Font Size (Example: 18px)"
+msgstr ""
+
+#: elements/blog-shortcode.php:698
+msgid "Date Font Size (Example: 14px)"
+msgstr ""
+
+#: elements/blog-shortcode.php:707
+msgid "Meta Font Size (Example: 14px)"
+msgstr ""
+
+#: elements/blog-shortcode.php:717
+msgid "Display Excerpt?"
+msgstr ""
+
+#: elements/blog-shortcode.php:729
+msgid "Display Date?"
+msgstr ""
+
+#: elements/blog-shortcode.php:740
+msgid "Display Post Meta?"
+msgstr ""
+
+#: elements/blog-shortcode.php:750
+msgid "Display Author?"
+msgstr ""
+
+#: elements/blog-shortcode.php:764
+msgid "Display Category?"
+msgstr ""
+
+#: elements/blog-shortcode.php:779
+msgid "Display Comments?"
+msgstr ""
+
+#: elements/blog-shortcode.php:793 elements/portfolio-shortcode.php:756
+msgid "Disable Image Hover Effect?"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:116
+msgid "Pro Image Grid"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:117
+msgid "Display grid of images"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:129
+msgid "Images"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:137
+msgid "Image Grid Column"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:154
+msgid "Image Grid Padding"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:184
+msgid "Image Size"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:200
+msgid "Disable Captions"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:201
+msgid "Check box to disable captions in lightbox"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:220
+msgid "Image Background Color"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:229
+msgid "Display Image Title on Hover"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:230
+msgid "Check box to enable title on hover"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:241
+msgid "Image Hover Effect"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:244
+msgid "Zoom"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:245
+msgid "Greyscale"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:246
+msgid "Sepia"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:247
+msgid "Saturate"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:248
+msgid "Shine"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:249
+msgid "No Effect"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:259
+msgid "Image Hover Transprency"
+msgstr ""
+
+#: elements/image-grid-shortcode.php:260
+msgid "Check box to enable transparency on hover"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:451
+msgid "Pro Portfolio"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:452
+msgid "Portfolio post list"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:465
+msgid "Portfolio Pagination & Carousel Option"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:481
+msgid "Portfolio Columns"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:501
+msgid "Portfolio Image Size"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:515
+msgid "Portfolio Post List Padding"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:546
+msgid "Portfolio Post Count"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:555
+msgid "Narrow by Portfolio Categories"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:565
+msgid "Display Portfolio Sorting?"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:646
+msgid "Portfolio Carousel Autoplay Duration"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:670
+msgid "Portfolio Layout"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:693
+msgid "Category Font Size (Example: 14px)"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:702
+msgid "Image/Overlay Hover Opacity (Example 0.5)"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:711
+msgid "Content Layout Background Color"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:720
+msgid "Enable Hover Vertical Animation"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:729
+msgid "Disable Content Margin?"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:739
+msgid "Disable Category?"
+msgstr ""
+
+#: elements/portfolio-shortcode.php:747
+msgid "Disable Excerpt (Content Layout)?"
+msgstr ""
+
+#: elements/shop-shortcode.php:507
+msgid "Pro Products"
+msgstr ""
+
+#: elements/shop-shortcode.php:508
+msgid "Shop product list"
+msgstr ""
+
+#: elements/shop-shortcode.php:521
+msgid "Shop Pagination & Carousel Option"
+msgstr ""
+
+#: elements/shop-shortcode.php:537
+msgid "Shop Columns"
+msgstr ""
+
+#: elements/shop-shortcode.php:554
+msgid "Shop List Padding"
+msgstr ""
+
+#: elements/shop-shortcode.php:584
+msgid "Shop Post Count"
+msgstr ""
+
+#: elements/shop-shortcode.php:593
+msgid "Disable Out of Stock Items?"
+msgstr ""
+
+#: elements/shop-shortcode.php:602
+msgid "Narrow by Shop Categories"
+msgstr ""
+
+#: elements/shop-shortcode.php:612
+msgid "Display Shop Sorting?"
+msgstr ""
+
+#: elements/shop-shortcode.php:693
+msgid "Shop Carousel Autoplay Duration"
+msgstr ""
+
+#: elements/shop-shortcode.php:716
+msgid "Heading Font Size (Example: 15px)"
+msgstr ""
+
+#: elements/shop-shortcode.php:726
+msgid "Display Price"
+msgstr ""
+
+#: elements/team-shortcode.php:177
+msgid "Pro Team Member"
+msgstr ""
+
+#: elements/team-shortcode.php:178
+msgid "Display team member"
+msgstr ""
+
+#: elements/team-shortcode.php:195
+msgid "Team Title"
+msgstr ""
+
+#: elements/team-shortcode.php:197
+msgid "John Doe"
+msgstr ""
+
+#: elements/team-shortcode.php:204
+msgid "Team Sub-title"
+msgstr ""
+
+#: elements/team-shortcode.php:206
+msgid "Web Developer"
+msgstr ""
+
+#: elements/team-shortcode.php:213
+msgid "Team Text"
+msgstr ""
+
+#: elements/team-shortcode.php:221
+msgid "Optional Team Link (Heading/Image)"
+msgstr ""
+
+#: elements/team-shortcode.php:229
+msgid "Team Image"
+msgstr ""
+
+#: elements/team-shortcode.php:239
+msgid "Image Hover Color"
+msgstr ""
+
+#: elements/team-shortcode.php:241
+msgid "#292935"
+msgstr ""
+
+#: elements/team-shortcode.php:250
+msgid "Optional Title Font Size"
+msgstr ""
+
+#: elements/team-shortcode.php:258
+msgid "Optional Sub-title Font Size"
+msgstr ""
+
+#: elements/team-shortcode.php:266
+msgid "Facebook Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:268
+msgid "http://facebook.com"
+msgstr ""
+
+#: elements/team-shortcode.php:274
+msgid "Twitter Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:276
+msgid "http://twitter.com"
+msgstr ""
+
+#: elements/team-shortcode.php:282
+msgid "E-mail Link"
+msgstr ""
+
+#: elements/team-shortcode.php:284
+msgid "noreply@e-mail.com"
+msgstr ""
+
+#: elements/team-shortcode.php:290
+msgid "Instagram Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:299
+msgid "Spotify Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:307
+msgid "Youtube Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:315
+msgid "Vimeo Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:324
+msgid "Google+ Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:332
+msgid "Pinterest Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:339
+msgid "Soundcloud Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:347
+msgid "LinkedIn Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:356
+msgid "Snapchat Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:364
+msgid "Tumblr Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:373
+msgid "Flickr Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:381
+msgid "Dribbble Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:389
+msgid "VK Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:397
+msgid "WordPress Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:405
+msgid "Houzz Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:413
+msgid "BeHance Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:422
+msgid "GitHub Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:431
+msgid "LastFM Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:439
+msgid "Medium Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:447
+msgid "Trip Advisor Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:456
+msgid "Twitch Social Link"
+msgstr ""
+
+#: elements/team-shortcode.php:464
+msgid "Yelp Social Link"
+msgstr ""
+
+#: pro-custom.php:40
+msgid "Portfolio"
+msgstr ""
+
+#: pro-custom.php:41
+msgid "Portfolio Post"
+msgstr ""
+
+#: pro-custom.php:55
+msgid "Portfolio Categories"
+msgstr ""
+
+#: templates/custom-templates.php:13
+msgid " About me"
+msgstr ""
+
+#: templates/custom-templates.php:27
+msgid " About us"
+msgstr ""
+
+#: templates/custom-templates.php:53
+msgid " Accordions"
+msgstr ""
+
+#: templates/custom-templates.php:66
+msgid " Buttons"
+msgstr ""
+
+#: templates/custom-templates.php:82
+msgid " Call to action"
+msgstr ""
+
+#: templates/custom-templates.php:96
+msgid " Carousels"
+msgstr ""
+
+#: templates/custom-templates.php:108
+msgid " Charts and Counters"
+msgstr ""
+
+#: templates/custom-templates.php:123
+msgid " Coming Soon"
+msgstr ""
+
+#: templates/custom-templates.php:137
+msgid " Home - Agency"
+msgstr ""
+
+#: templates/custom-templates.php:163
+msgid " Home - Architecture"
+msgstr ""
+
+#: templates/custom-templates.php:175
+msgid " Home - Corporate"
+msgstr ""
+
+#: templates/custom-templates.php:211
+msgid " Home - Creative Studio"
+msgstr ""
+
+#: templates/custom-templates.php:250
+msgid " Home - Personal"
+msgstr ""
+
+#: templates/custom-templates.php:263
+msgid " Home - Portfolio"
+msgstr ""
+
+#: templates/custom-templates.php:277
+msgid " Home - Shop"
+msgstr ""
+
+#: templates/custom-templates.php:291
+msgid " Pricing Tables"
+msgstr ""
+
+#: templates/custom-templates.php:357
+msgid " Contact Agency"
+msgstr ""
+
+#: templates/custom-templates.php:373
+msgid " Contact Classic"
+msgstr ""
+
+#: templates/custom-templates.php:388
+msgid " Contact Modern"
+msgstr ""
+
+#: templates/custom-templates.php:406
+msgid " Contact Traditional"
+msgstr ""
+
+#: templates/custom-templates.php:422
+msgid " Frequently Asked Questions"
+msgstr ""
+
+#: templates/custom-templates.php:435
+msgid " Icon Boxes"
+msgstr ""
+
+#: templates/custom-templates.php:460
+msgid " Team/Staff"
+msgstr ""
+
+#: templates/custom-templates.php:474
+msgid " Services"
+msgstr ""
+
+#: templates/custom-templates.php:494
+msgid " Testimonials"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Progression Elements"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://http://progressionstudios.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin registers custom elements for Progression Studios"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Progression Studios"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://progressionstudios.com/"
+msgstr ""

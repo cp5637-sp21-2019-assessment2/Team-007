@@ -1,0 +1,253 @@
+/*
+Theme Name: zaser-progression
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+#pro-scroll-top {
+	direction: ltr;
+	right:auto;
+	left:26px;
+}
+
+
+.comment-navigation .nav-previous { 
+	float:right; 
+}
+.comment-navigation .nav-next {
+	 float:left;  
+	 text-align:left; 
+}
+
+/* Navigation Fixes */
+.mobile-menu-icon-pro,
+#progression-shopping-cart-count,
+#progression-studios-header-search-icon {
+	float:left;
+}
+
+.mobile-menu-icon-pro {
+	padding-right:25px;
+}
+
+body #progression-checkout-basket,
+body #panel-search-progression {
+	right:auto;
+	left:0px;
+}
+.sf-menu i {
+	margin-left:6px;
+}
+
+.sf-mega li h2 i { 
+	margin-left:8px;
+}
+
+.sf-menu li li a {
+	text-transform:none;
+	font-size:11px;
+	padding:16px 0px 16px 50px;
+	border-bottom:1px solid rgba(255,255,255, 0.08);
+}
+.progression-mini-banner-icon {
+	right:auto;
+	left:9px;
+}
+
+.sf-menu li li .progression-mini-banner-icon,
+.sf-menu li .sf-mega h2 .progression-mini-banner-icon,
+.sf-menu li .sf-mega .progression-mini-banner-icon {
+	right:auto;
+	left:0px;
+}
+
+#progression-checkout-basket .progression-sub-total {
+	float:left;
+}
+#progression-checkout-basket a.cart-button-header-cart {
+	float:right;
+}
+
+
+
+#blog-single-navigation a,
+#portfolio-single-navigation a {
+	float:right;
+}
+#blog-single-navigation a[rel="next"],
+#portfolio-single-navigation a[rel="next"] {
+	float:left;
+}
+
+#blog-single-navigation .progression-studios-next,
+#portfolio-single-navigation .progression-studios-next {
+	text-align:left;
+}
+
+.search-form input.search-field {
+	background-position:12px 12px;
+}
+
+#panel-search-progression .search-form input.search-field {
+	background-position:12px 11px;
+}
+
+/* Moblie Menu Styles */
+#main-nav-mobile .sf-menu li li .progression-mini-banner-icon,
+#main-nav-mobile .sf-menu li .sf-mega h2 .progression-mini-banner-icon,
+#main-nav-mobile .sf-menu li .sf-mega .progression-mini-banner-icon,
+#main-nav-mobile .progression-mini-banner-icon {
+	right:auto;
+	left:70px;
+}
+
+
+ul.mobile-menu-pro li .sub-collapser {
+	right:auto;
+	left:0px;
+}
+
+
+/* RTL Sidebar */
+@media only screen and (min-width: 959px) { 
+	
+	body.progression-studios-header-sidebar-before header#masthead-pro,
+	body.progression-studios-header-sidebar-before:before {
+		left: auto;
+		right:0px;
+	}
+	
+	body.progression-studios-header-sidebar-before  #post-secondary-page-title-pro #progression-studios-page-title-container,
+	body.progression-studios-header-sidebar-before #secondary-image-post-overlay-image,
+	body.progression-studios-header-sidebar-before #blog-single-navigation,
+	body.progression-studios-header-sidebar-before #portfolio-single-navigation, 
+	body.progression-studios-header-sidebar-before #zaser-progression-header-top,
+	body.progression-studios-header-sidebar-before #page-title-pro,
+	body.progression-studios-header-sidebar-before footer#site-footer,
+	body.progression-studios-header-sidebar-before #content-pro { 
+		margin-left:0px;  
+		margin-right:300px;
+	}
+	
+	body.progression-studios-header-sidebar-before[data-vc-full-width-init="true"] { 
+		padding-right:300px !important;
+		padding-left:0px !important;
+	}
+	
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-menu ul {
+		right: calc(100% + 55px);
+		left:auto;
+	}
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-menu ul ul {
+		right:100%;
+		left:auto;
+	}
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-menu li {
+		width: 100%;
+	}
+	
+	body.progression-studios-header-sidebar-before #panel-search-progression,
+	body.progression-studios-header-sidebar-before #progression-checkout-basket {
+		left:auto;
+		right:calc(100% + 55px);
+	}
+
+	
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-menu li li a {
+		padding-right:0px;
+		padding-left:50px;
+	}
+	
+	/* New + Arrow Position */
+	body.progression-studios-header-sidebar-before header#masthead-pro .progression-mini-banner-icon {
+		right:auto;
+		left:55px;
+	}
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-arrows .sf-with-ul:after {
+		right:auto;
+		left:60px;
+		content:"\f104";
+	}
+	
+	body.progression-studios-header-sidebar-before header#masthead-pro li li .progression-mini-banner-icon,
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-arrows li li .sf-with-ul:after {
+		right:auto;
+		left:10px;
+	}
+	
+	
+	/* Social Icons Inline */
+	body.progression-studios-header-sidebar-before #progression-inline-icons .progression-studios-social-icons {
+		left:auto;
+		right:0px;
+	}
+	
+
+	
+	
+}
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1100px) {
+	
+	body.progression-studios-header-sidebar-before  #post-secondary-page-title-pro #progression-studios-page-title-container,
+	body.progression-studios-header-sidebar-before #secondary-image-post-overlay-image,
+	body.progression-studios-header-sidebar-before #blog-single-navigation,
+	body.progression-studios-header-sidebar-before #portfolio-single-navigation, 
+	body.progression-studios-header-sidebar-before #zaser-progression-header-top,
+	body.progression-studios-header-sidebar-before #page-title-pro,
+	body.progression-studios-header-sidebar-before footer#site-footer,
+	body.progression-studios-header-sidebar-before #content-pro { 
+		margin-left:0px;  
+		margin-right:270px;
+	}
+	
+	body.progression-studios-header-sidebar-before[data-vc-full-width-init="true"] { 
+		padding-right:270px !important;
+		padding-left:0px !important;
+	}
+	
+	
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-menu ul {
+		right: calc(100% + 45px);
+		left:auto;
+	}
+	
+	body.progression-studios-header-sidebar-before #panel-search-progression,
+	body.progression-studios-header-sidebar-before #progression-checkout-basket {
+		left:auto;
+		right:calc(100% + 45px);
+	}
+
+	
+	
+	body.progression-studios-header-sidebar-before header#masthead-pro .progression-mini-banner-icon {
+		right:auto;
+		left:45px;
+	}
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-arrows .sf-with-ul:after {
+		right:auto;
+		left:50px;
+		content:"\f104";
+	}
+	
+	body.progression-studios-header-sidebar-before header#masthead-pro li li .progression-mini-banner-icon,
+	body.progression-studios-header-sidebar-before header#masthead-pro .sf-arrows li li .sf-with-ul:after {
+		right:auto;
+		left:10px;
+	}
+	
+	
+}
+
