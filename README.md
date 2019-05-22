@@ -36,7 +36,8 @@ To deploy the files on a live system please extract the database files and other
 ## Built With
 
 *  WordPress : https://wordpress.org - CMS Used
-*  Elementor : https://elementor.com/ - Wordpress Plugins Used
+*  Visual Composer Wordpress Plugin: - For making our work more easier and convenient.
+*  Underscore Starter Themes & Sage stater themes for starting the Website
 
 
 ## Versioning
@@ -67,5 +68,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 * https://wordpress.org
 * Visual Composer Wordpress Plugin: - For making our work more easier and convenient.
-* Underscore Starter Themes & Sage stater themes for making Wordpress site more stylish 
+* Underscore Starter Themes & Sage stater themes for starting the Website
 
