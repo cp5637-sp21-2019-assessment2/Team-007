@@ -66,5 +66,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Acknowledgments
 
 * https://wordpress.org
-* Elementor Wordpress Plugin: https://elementor.com/ - For making our work more easier and convenient.
+* Visual Composer Wordpress Plugin: - For making our work more easier and convenient.
+* Underscore Starter Themes & Sage stater themes for making Wordpress site more stylish 
 
